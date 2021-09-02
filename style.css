@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  height: 100%;
+  padding: 5rem;
+  background-color: #181818;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: rgb(33, 33, 33);
+  text-align: center;
+}
+
+.icon {
+  width: 68px;
+  height: 68px;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+/* INPUT */
+
+input {
+  height: 50px;
+  padding: 15px;
+  background-color: #181818;
+  border: 0;
+  border-radius: 25px;
+  color: #ff4a57;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* BUTTON */
+
+.content-container button {
+  padding: 15px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: rgb(33, 33, 33);
+  border: 2px solid #ff4a57;
+  margin: 1.5rem 0;
+  transition: 1s;
+}
+
+.content-container button:hover {
+  background-color: #ff4a57;
+}
+
+/* QRCODE */
+
+.qr-container {
+  background-color: #fff;  
+  padding: 15px;
+  border-radius: 15px;
+}
+
+/* DOWNLOAD BUTTON*/
+
+.download-container {
+  margin-top: 1rem;
+}
+
+#downloadButton {
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#downloadButton:hover{
+  color: #ff4a57;
+}

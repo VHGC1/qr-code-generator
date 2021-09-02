@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Qr Code Generator</title>
+  </head>
+  <body style="font-family: 'Poppins', sans-serif">
+    <main>
+      <div class="container">
+        <div class="content-container">
+          <img src="assets/qr_logo.svg" alt="icon" class="icon" />
+          <input
+            type="text"
+            name=""
+            id="text"
+            placeholder="Paste your content"
+          />
+          <button id="button">Generate</button>
+
+          <div class="qr-container" id="qrcode"></div>
+          <div class="download-container">
+            <a id="downloadButton">Download</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="App.js"></script>
+  </body>
+</html>
