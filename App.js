@@ -8,7 +8,7 @@ let text = document.getElementById("text");
 let button = document.getElementById("button");
 let downloadButton = document.getElementById("downloadButton")
 
-qrcode.makeCode(window.location);
+qrcode.makeCode(window.location.href);
 
 button.onclick = () => {
   qrcode.makeCode(text.value);
