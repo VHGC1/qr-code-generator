@@ -72,6 +72,7 @@ input {
   border: 2px solid #ff4a57;
   margin: 1.5rem 0;
   transition: 1s;
+  cursor: pointer;
 }
 
 .content-container button:hover {
